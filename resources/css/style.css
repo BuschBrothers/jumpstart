@@ -1,0 +1,131 @@
+
+.border {
+  border: 1px solid red;
+}
+
+html {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  color: rgb(57, 155, 209);
+  background-color: inherit;
+}
+
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+
+.info {
+  margin: 11.85rem auto;
+  width: 51.3rem;
+  color: white;
+  text-shadow: -1px -1px 0 black;
+  text-align: center;
+}
+
+.info h1 {
+  font-family: Monoton;
+  font-size: 7.1rem;
+}
+
+.info p {
+  margin-bottom: 2.8rem;
+}
+
+.info a {
+  text-shadow: none;
+  width: 11.4rem;
+  padding: 1.3rem auto;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.info a:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.info a:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+/* FEATURED SECCION */
+
+.blue {
+  color: #399bd1;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.eightyfive {
+  width: 85%;
+}
+
+.image-container {
+  opacity: 0.7;
+}
+
+.no-margin {
+  margin: 0;
+  padding: 0;
+}
+
+/* PROYECTS SECTION */
+
+#projects .proyect h3 {
+  margin-top: 40px;
+}
+
+/* HAVING TROUBLE SECTION */
+
+#trouble {
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+#trouble strong {
+  margin-top: 40px;
+  font-size: 2.5rem;
+}
+
+#trouble p {
+  margin: 1.4rem auto;
+  width: 42rem;
+}
+
+#trouble a {
+  text-shadow: none;
+  width: 11.4rem;
+  padding: 1.3rem auto;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+#trouble a:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+#trouble a:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ocultar {
+    display: none;
+  }
+}
