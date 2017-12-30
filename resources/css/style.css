@@ -3,6 +3,10 @@
   border: 1px solid red;
 }
 
+.desocultar {
+  display: none;
+}
+
 html {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
@@ -18,8 +22,17 @@ body {
   background-color: inherit;
 }
 
+/* JUMBOTRON SECTION */
+
+.jumbotron {
+  margin-top: 50px;
+}
+
 .jumbotron-bike {
   background-image: url("../images/jumbotron-bike.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info {
@@ -105,6 +118,7 @@ h3 {
 #trouble p {
   margin: 1.4rem auto;
   width: 42rem;
+  mari
 }
 
 #trouble a {
@@ -127,5 +141,35 @@ h3 {
 @media only screen and (max-width: 767px) {
   .ocultar {
     display: none;
+  }
+
+  .desocultar {
+    display: block;
+  }
+
+  /* nav, .nav, .navbar {
+    width: 100%;
+  } */
+
+  .info {
+    width: 100%;
+  }
+
+  .info h1 {
+    font-size: 5.7rem;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .info p {
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2.8rem;
+  }
+
+  #trouble p {
+    width: 80%;
   }
 }
