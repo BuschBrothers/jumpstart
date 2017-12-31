@@ -141,19 +141,24 @@ h3 {
 /* HAVING TROUBLE SECTION */
 
 #trouble {
+  margin-top: 3rem;
   background-color: #f3f3f3;
   text-align: center;
 }
 
+#trouble .info {
+  margin: 5.2rem auto;
+  color: black;
+  text-shadow: none;
+}
+
 #trouble strong {
-  margin-top: 40px;
   font-size: 2.5rem;
 }
 
 #trouble p {
   margin: 1.4rem auto;
   width: 42rem;
-  mari
 }
 
 #trouble a {
@@ -182,9 +187,13 @@ h3 {
     display: block;
   }
 
-  /* nav, .nav, .navbar {
-    width: 100%;
-  } */
+  nav {
+    height: 10rem;
+  }
+
+  .carousel {
+    margin-top: 10rem;
+  }
 
   .info {
     width: 100%;
